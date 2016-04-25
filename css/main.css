@@ -86,6 +86,11 @@ header {
 h1 {
   margin: 0 0 .5rem;
   font-size: 1.5rem;
+  float: left;
+}
+
+nav {
+  float: right;
 }
 
 .nav {
@@ -116,7 +121,7 @@ nav a {
   text-decoration: none;
 }
 
-nav a:hover {
+.nav a:hover {
   background-color: #333;
   color: #fff;
 }
@@ -138,6 +143,7 @@ nav a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
+  margin: .5em;
 }
 
 .nav-open,
@@ -203,6 +209,11 @@ section {
     text-align: center;
   }
 
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -237,6 +248,11 @@ section {
     margin-left: 1em;
   }
 
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
   .body h2,
   .body p {
     margin-left: 1em;
@@ -250,6 +266,11 @@ section {
     line-height: 1.5;
   }
 
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
   .body {
     top: 15em;
     max-width: 400px;
@@ -261,6 +282,11 @@ section {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+  .nav a:hover {
+    background-color: #333;
+    color: #fff;
   }
 
   .body {
