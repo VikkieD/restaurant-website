@@ -276,6 +276,8 @@ section {
 
   .nav {
     display: inline;
+    top: 0;
+    width: 25em;
   }
 
   .body {
