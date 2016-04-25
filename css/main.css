@@ -267,6 +267,17 @@ section {
     background-color: #333;
   }
 
+  .nav-check,
+  .nav-open,
+  .nav-close,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: inline;
+  }
+
   .body {
     top: 15em;
     max-width: 400px;
@@ -282,6 +293,17 @@ section {
 
   .nav a:hover {
     background-color: #333;
+  }
+
+  .nav-check,
+  .nav-open,
+  .nav-close,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: inline;
   }
 
   .body {
