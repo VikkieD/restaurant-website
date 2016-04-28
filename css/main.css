@@ -36,13 +36,17 @@ body {
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 2rem;
-  background-color: rgba(0, 0, 0, 0.5);
   display: inline;
   line-height: 1.5;
-  color: #fff;
+  color: #333;
   font-weight: bold;
   margin: 0;
   text-align: left;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
 }
 
 .banner {
@@ -52,7 +56,7 @@ h2 {
 }
 
 .banner img {
-  width: 100%;
+  width: 150%;
 }
 
 .banner-content {
@@ -61,7 +65,7 @@ h2 {
   width: 100%;
   padding-left: 1.5em;
   margin: 0;
-  text-align: left;
+  text-align: center;
   left: 50%;
   max-width: 45em;
   transform: translateX(-50%);
@@ -69,7 +73,6 @@ h2 {
 
 .banner-content p {
   margin: 0;
-  font-size: 2rem;
 }
 
 p {
@@ -333,16 +336,12 @@ h1 {
 }
 
 .card {
-  background:#fff;
-  border:1px solid #aaa;
-  border-bottom:8px solid #bbb;
-  padding:0px;
-  margin:10px;
-  overflow:hidden;
-}
-
-.card h1 {
-  margin:0px;
-  padding:10px;
-  padding-bottom:0px;
+  background: #fff;
+  border: 1px solid #aaa;
+  border-bottom: 3px solid #bbb;
+  padding: 0;
+  margin: 10px;
+  position: relative;
+  width: 100%;
+  float: inherit;
 }
