@@ -51,7 +51,7 @@ h3 {
 
 .banner {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   width: 100%;
 }
 
